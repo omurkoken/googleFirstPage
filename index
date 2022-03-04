@@ -1,0 +1,112 @@
+/************************** INDEX.HTML**********************/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssDosya/table.css">
+    <title>Google</title>
+</head>
+<body>
+
+<div class="container">
+  
+        <img src="img/google.jpg" alt="Google">
+     
+    
+    <div class="search-form">
+        <label for="search">Search the web using Google!</label>
+        <br>
+        <input id="search" type="text">
+        <br>
+        <button>Google Search</button>
+        <button>I'm feeling lucky</button>
+    </div>
+    
+        <div class="leftmenu">
+            Special Searches
+            <br>  
+            <a href="/web/19981202230410/http://www.google.com/stanford">Stanford Search</a>
+            <br>
+            <a href="/web/19981202230410/http://www.google.com/linux">Linux Search</a>
+        </div>
+        <div class="centermenu">
+            <a href="help.html">Help!</a>
+            <br>
+            <a href="about.html">About Google!</a>
+            <br>
+            <a href="company.html">Company Info</a>
+            <br>
+            <a href="stickers.html">Google! Logos</a>
+        </div>
+        <div class="rightmenu
+        ">
+            Get Google!
+            <br>
+            updates montly:
+            <br>
+            <input type="text" value="your e-mail">
+            <br>
+            <button>Subscribe</button>
+            <a href="">Acvhieve</a>
+        </div>
+        <div class="clear"></div>
+         <footer>Copyright ©1998 Google Inc.</footer>  
+</div>
+</body>
+</html>
+
+
+/************************CSS STYLE ******************************************************/
+body {
+    margin: 8px 90px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.container {
+    text-align: center;
+}
+
+.search-form {
+    background-color: #EEEEEE;
+    margin:0;
+}
+
+#search {
+    width: 25%;
+}
+
+.leftmenu {
+    padding: 11px;
+    margin: 1px 0;
+    background-color: #7EE5DA;
+    width: 36%;
+    float: left;
+}
+
+.centermenu {
+    padding: 5px;
+    font-size: 14px;
+    margin: 1px 2px;
+    float: left;
+    width: 20%;
+    background-color: #70CCC2;
+}
+
+.rightmenu {
+    background-color: #62B3AA;
+    float: left;
+    margin: 1px 0;
+    width: 41.34%;
+    font-size: 14px;
+}
+
+.clear {
+    clear: both;
+}
